@@ -43,11 +43,11 @@
 
         raise_layer {
             bindings = <
-  &trans           &kp BACKSLASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON     &kp COMMA       &kp GRAVE  &trans            &trans             &trans  &trans  &trans
-  &kp EXCLAMATION  &kp LEFT_BRACE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_BRACE   &kp QUESTION    &trans     &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans  &trans  &trans
-  &kp HASH         &kp CARET       &kp EQUAL             &kp UNDERSCORE         &kp DOLLAR        &kp STAR        &trans     &trans            &trans             &trans  &trans  &trans
-  &kp TILDE        &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GREATER_THAN  &kp SLASH       &trans     &trans            &trans             &trans  &trans  &trans
-                                   &kp AT_SIGN           &kp AMPERSAND          &kp PLUS          &kp PERCENT     &trans     &trans            &trans             &trans
+  &trans           &kp BACKSLASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON     &kp COMMA       &kp GRAVE  &trans              &trans               &trans  &trans  &trans
+  &kp EXCLAMATION  &kp LEFT_BRACE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_BRACE   &kp QUESTION    &trans     &kp SINGLE_QUOTE    &kp DOUBLE_QUOTES    &trans  &trans  &trans
+  &kp HASH         &kp CARET       &kp EQUAL             &kp UNDERSCORE         &kp DOLLAR        &kp STAR        &trans     &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans  &trans  &trans
+  &kp TILDE        &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GREATER_THAN  &kp SLASH       &trans     &trans              &trans               &trans  &trans  &trans
+                                   &kp AT_SIGN           &kp AMPERSAND          &kp PLUS          &kp PERCENT     &trans     &trans              &trans               &trans
             >;
         };
 
